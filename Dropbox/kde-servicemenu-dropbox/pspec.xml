@@ -1,0 +1,50 @@
+<?xml version="1.0" ?>
+<!DOCTYPE PISI SYSTEM "http://www.pardus.org.tr/projeler/pisi/pisi-spec.dtd">
+<PISI>
+    <Source>
+        <Name>kde-servicemenu-dropbox</Name>
+        <Homepage>http://kde-look.org/content/show.php/Dropbox+ServiceMenu?content=124416</Homepage>
+        <Packager>
+            <Name>Anıl Özbek</Name>
+            <Email>ozbekanil@gmail.com</Email>
+        </Packager>
+        <License>GPLv3</License>
+        <Icon>dolphin</Icon>
+        <IsA>app:gui</IsA>
+        <Summary>A service menu for Dropbox</Summary>
+        <Description>Dropbox ServiceMenu is a servicemenu which allows easy access to most of Dropbox features. It uses Dropbox CLI to generate public urls, and pyndexer to allow sharing directories in public folder.</Description>
+        <Archive sha1sum="488e65288949879e76b3651b3f70cbf473e73865" type="targz">file:///home/maidis/Dropbox/Public/Paketler/DropboxServiceMenu-0.16.1_peace.tar.gz</Archive>
+    </Source>
+
+    <Package>
+        <Name>kde-servicemenu-dropbox</Name>
+        <RuntimeDependencies>
+            <AnyDependency>
+                <Dependency>dropbox</Dependency>
+                <Dependency>kfilebox</Dependency>
+            </AnyDependency>
+            <Dependency>kdebase-workspace</Dependency>
+            <Dependency>kdebase</Dependency>
+            <Dependency>kdepim</Dependency>
+            <Dependency>python-M2Crypto</Dependency>
+            <Dependency>sharutils</Dependency>
+            <Dependency>sqlite</Dependency>
+            <Dependency>xdg-utils</Dependency>
+        </RuntimeDependencies>
+        <Files>
+            <Path fileType="executable">/usr/bin</Path>
+            <Path fileType="data">/usr/share/kde4</Path>
+            <Path fileType="doc">/usr/share/doc</Path>
+        </Files>
+    </Package>
+
+    <History>
+        <Update release="1">
+            <Date>2012-09-07</Date>
+            <Version>0.16.1</Version>
+            <Comment>First release</Comment>
+            <Name>Anıl Özbek</Name>
+            <Email>ozbekanil@gmail.com</Email>
+        </Update>
+    </History>
+</PISI>

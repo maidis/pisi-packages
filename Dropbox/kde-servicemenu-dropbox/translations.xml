@@ -1,0 +1,8 @@
+<?xml version="1.0" ?>
+<PISI>
+    <Source>
+        <Name>kde-servicemenu-dropbox</Name>
+        <Summary xml:lang="tr">Dropbox için bir servis menüsü</Summary>
+        <Description xml:lang="tr">Dropbox ServiceMenu, Dropbox'un pek çok özelliğine kolay erişim sağlayan bir servis menüsüdür. Yüklenen dosyaların bağlantılarını almak için Dropbox CLI'yi ve dizinleri paylaşmak için pyndexer'i kullanmaktadır.</Description>
+    </Source>
+</PISI>
