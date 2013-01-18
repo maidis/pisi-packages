@@ -12,4 +12,4 @@ WorkDir = "."
 def install():
     pisitools.dobin("kindlegen")
 
-    pisitools.dodoc("KindleGen*", "docs/english/*")
+    pisitools.dodoc("EULA", "KindleGen*", "docs/english/*")
